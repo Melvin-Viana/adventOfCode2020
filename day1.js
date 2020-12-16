@@ -1,5 +1,5 @@
 const fs = require('fs');
-const input = fs.readFileSync('./day1input.txt', 'utf8').split('\n');
+const input = fs.readFileSync('./input1.txt', 'utf8').split('\n');
 //Loop through array and find sums that equal 2020
 const partOneAnswer = () => {
   for (let i = 0; i < input.length - 1; i++) {
